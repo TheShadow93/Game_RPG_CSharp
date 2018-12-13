@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Sumeet/Library/Mobile Documents/com~apple~CloudDocs/Ingesup/B2/Langage Objet C#/Projet-C-/Projects/RpgText1/RpgText1/RpgText1.csproj",
+      "projectUniqueName": "/Users/Sumeet/Library/Mobile Documents/com~apple~CloudDocs/Ingesup/B2/Langage Objet C#/Projects/Game_RPG_CSharp/RpgText1/RpgText1/RpgText1.csproj",
       "projectName": "RpgText1",
-      "projectPath": "/Users/Sumeet/Library/Mobile Documents/com~apple~CloudDocs/Ingesup/B2/Langage Objet C#/Projet-C-/Projects/RpgText1/RpgText1/RpgText1.csproj",
+      "projectPath": "/Users/Sumeet/Library/Mobile Documents/com~apple~CloudDocs/Ingesup/B2/Langage Objet C#/Projects/Game_RPG_CSharp/RpgText1/RpgText1/RpgText1.csproj",
       "packagesPath": "/Users/Sumeet/.nuget/packages/",
-      "outputPath": "/Users/Sumeet/Library/Mobile Documents/com~apple~CloudDocs/Ingesup/B2/Langage Objet C#/Projet-C-/Projects/RpgText1/RpgText1/obj",
+      "outputPath": "/Users/Sumeet/Library/Mobile Documents/com~apple~CloudDocs/Ingesup/B2/Langage Objet C#/Projects/Game_RPG_CSharp/RpgText1/RpgText1/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

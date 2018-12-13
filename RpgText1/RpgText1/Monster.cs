@@ -5,6 +5,7 @@ namespace RpgText1
     {
         public Monster()
         {
+
         }
     }
 }
