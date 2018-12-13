@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{8FD88965-8388-4DF2-B1B2-2B2B4310322F}|Default">
+  <MonoDevelop.Ide.ItemProperties.RpgText1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RpgText1/Game.cs">
+    <Files>
+      <File FileName="RpgText1/Menu.cs" Line="31" Column="10" />
+      <File FileName="RpgText1/Map.cs" Line="1" Column="1" />
+      <File FileName="RpgText1/Player.cs" Line="6" Column="27" />
+      <File FileName="RpgText1/Monster.cs" Line="7" Column="10" />
+      <File FileName="RpgText1/Game.cs" Line="16" Column="19" />
+      <File FileName="RpgText1/Program.cs" Line="10" Column="10" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
