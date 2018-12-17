@@ -17,12 +17,13 @@ namespace RpgText1
         }
 
         public void Deplacement()
-        {
+        {/*
             PrintChoix();
             int choix = Menu.AskChoice(0, 4);
             //TODO recuperer la case 
             //TODO Tester le contenu de ma case 
             //TODO peut etre lancer un combat ...
+            */           
         }
     }
 }
