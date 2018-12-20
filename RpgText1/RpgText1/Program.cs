@@ -19,7 +19,13 @@ namespace RpgText1
          
         private static void Fight(ICharacter mainUser)
         {
-            ICharacter enemy = GenerateEnnemy();
+            Ennemy TheMonster = new Ennemy();
+
+            //Pour la bataille jusqu'a la defaite de quelqu'un
+            do
+            {
+
+            } while (mainUser.Health > 0 && TheMonster.Health > 0);
         }
 
         private static ICharacter BeginOfTheGame()
