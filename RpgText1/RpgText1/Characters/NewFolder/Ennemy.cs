@@ -10,7 +10,6 @@ namespace RpgText1
             Money = 10;
         }
 
-
         public string Name { get; set; }
         public virtual Enums.CharacterTypes CharacterType => Enums.CharacterTypes.None;
         public int Health { get; set; }

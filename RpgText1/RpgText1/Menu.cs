@@ -74,6 +74,13 @@ namespace RpgText1
 
         }
 
-  
+        public void IntroStory(Character character)
+        {
+            Console.WriteLine("Quel est ton nom ?");
+            character.Name = Console.ReadLine();
+
+            Console.WriteLine(character.Name + ", bienvenue dans le jeu");
+
+        }
     }
 }
