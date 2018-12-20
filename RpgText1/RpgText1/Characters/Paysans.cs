@@ -1,19 +1,15 @@
 ﻿using System;
 namespace RpgText1
 {
-    public class Paysans : ICharacter
+    public class Paysans : Character
     {
-        public Paysans()
+        public Paysans() : base()
         {
-            Money = 100;
-            Health = 100;
+            //Money = 100;
+            //Health = 100;
         }
 
-        public string Name { get; set; }
-        public Enums.CharacterTypes CharacterType => Enums.CharacterTypes.Guerrier;
-        public int Health { get; set; }
-        public int Money { get; set; }
-        public int Level { get; set; }
+        public override Enums.CharacterTypes CharacterType => Enums.CharacterTypes.Guerrier;
 
     }
 }
