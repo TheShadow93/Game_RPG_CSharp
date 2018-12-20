@@ -8,15 +8,21 @@ namespace RpgText1
 
         static void Main(string[] args)
         {
-            Character mainUser = new Character();
-            IntroStory(mainUser);
+            ICharacter mainUser = new ICharacter();
+            //IntroStory(mainUser);
 
-            BeginOfTheGame();
+            //BeginOfTheGame(mainUser);
+
 
             Console.ReadKey();
         }
 
-        private static void BeginOfTheGame()
+        private static void Fight(mainUser)
+        {
+            ICharacter enemy = GenerateEnnemy();
+        }
+
+        private static void BeginOfTheGame(ICharacter character)
         {
 
             string TypeChar;
@@ -33,21 +39,24 @@ namespace RpgText1
                 Console.Clear();
 
                 Console.WriteLine(TypeChar);
-            } while (TypeChar == "A" || TypeChar == "B" || TypeChar == "C");
+            } while (TypeChar != "A" && TypeChar != "B" && TypeChar != "C");
 
             switch (TypeChar)
             {
                 case "A":
+                    character = new Guerrier();
                     break;
                 case "B":
+                    character.CharacterType = Enums.CharacterTypes.Mage;
                     break;
                 case "C":
+                    character.CharacterType = Enums.CharacterTypes.Paysans;
                     break;
             }
 
         }
 
-        static void IntroStory(Character character)
+        static void IntroStory(ICharacter character)
         {
             Console.WriteLine("Quel est ton nom ?");
             character.Name = Console.ReadLine();

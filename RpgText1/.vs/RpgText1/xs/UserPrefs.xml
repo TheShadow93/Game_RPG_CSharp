@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{8FD88965-8388-4DF2-B1B2-2B2B4310322F}|Default">
   <MonoDevelop.Ide.ItemProperties.RpgText1 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RpgText1/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RpgText1/Characters/Character.cs">
     <Files>
       <File FileName="RpgText1/Menu.cs" Line="77" Column="15" />
-      <File FileName="RpgText1/Program.cs" Line="12" Column="25" />
-      <File FileName="RpgText1/Character.cs" Line="6" Column="15" />
+      <File FileName="RpgText1/Program.cs" Line="22" Column="48" />
+      <File FileName="RpgText1/Characters/Character.cs" Line="7" Column="9" />
+      <File FileName="RpgText1/Enums.cs" Line="6" Column="36" />
+      <File FileName="RpgText1/Characters/NewFolder/Character.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
