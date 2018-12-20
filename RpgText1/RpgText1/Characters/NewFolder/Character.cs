@@ -14,6 +14,15 @@ namespace RpgText1
         public int Health { get; set; }
         public int Money { get; set; }
         public int Level { get; set; }
+        public string PlayerInfo
+        {
+            get
+            {
+                return $"{Name} - {CharacterType.ToString()} LVL {Level}";
+            }
+
+
+        }
 
     }
 }

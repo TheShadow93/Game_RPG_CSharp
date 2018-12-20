@@ -8,6 +8,7 @@ namespace RpgText1
         int Health { get; set; }
         int Money { get; set; }
         int Level { get; set; }
+        string PlayerInfo { get;}
 
     }
 }

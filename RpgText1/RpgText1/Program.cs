@@ -25,7 +25,15 @@ namespace RpgText1
             //Bataille jusqu'a la defaite de quelqu'un
             do
             {
-                TheMonster.Health = TheMonster.Health - 10;
+                var attack = 10;
+
+                TheMonster.Health = TheMonster.Health - attack;
+
+
+                Console.WriteLine($"{mainUser.PlayerInfo} {TheMonster.Health}\nL'ennemi a perdu {attack} points !");
+                Console.ReadKey();
+
+                Console.Clear();
 
             } while (mainUser.Health > 0 && TheMonster.Health > 0);
 
@@ -61,7 +69,6 @@ namespace RpgText1
                 TypeChar = Console.ReadLine().ToUpper();
                 Console.Clear();
 
-                Console.WriteLine(TypeChar);
             } while (TypeChar != "A" && TypeChar != "B" && TypeChar != "C");
 
             switch (TypeChar)
@@ -76,6 +83,7 @@ namespace RpgText1
                     character = new Paysans(characterName);
                     break;
             }
+            Console.Clear();
             return character;
 
         }
@@ -83,10 +91,12 @@ namespace RpgText1
         private static string IntroStory()
         {
 
+
             Console.WriteLine("Quel est ton nom ?");
             string name = Console.ReadLine();
 
             Console.WriteLine(name + ", bienvenue dans le jeu");
+            Console.WriteLine("Tu es dans une foret froide et sombre. Pour en sortir, tu dois vaincre le monstre de la foret. Je te souhaite Bon Courage ahahahah.");
 
             return name;
 
