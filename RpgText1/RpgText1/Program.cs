@@ -6,6 +6,7 @@ namespace RpgText1
     {
         static void Main(string[] args)
         {
+           
             Menu m = new Menu();
         }
     }
