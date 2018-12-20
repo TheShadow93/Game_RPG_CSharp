@@ -1,21 +1,14 @@
 ﻿using System;
 namespace RpgText1
 {
-    public class Character
+    public class ICharacter
     {
 
-
-        public Character()
-        {
-            Money = 1;
-            Health = 100;
-        }
-
-        public string Name { get; set; }
-        public Enums.CharacterTypes CharacterType { get; set; }
-        public int Health { get; set; }
-        public int Money { get; set; }
-        public int Level { get; set; }
+        public string Name;
+        public Enums.CharacterTypes CharacterType;
+        public int Health;
+        public int Money;
+        public int Level;
 
     }
 }
